@@ -41,7 +41,7 @@ The `OwnersV2 Telegram Bot` is a simple and customizable bot for Telegram. It of
 `setup/vip.json`.
 
 ### Run the Bot
-1. Fork this Repo.
+1. Fork this [Repo](https://github.com/Kaizenji/Ownersv2-TelegramBot).
 
 2. Add the following build command:
    ```bash
@@ -52,6 +52,11 @@ The `OwnersV2 Telegram Bot` is a simple and customizable bot for Telegram. It of
    ```bash
    node index.js
    ```
+## Note!
+
+Make sure make **Admin** the bot if you added it on a **Channel** to unlock **Privalage & Features** like `access to chat`, `no prefix` and more.
+
+### Deployment
 
 You can deploy the bot on the following platforms:
 - [Render](https://render.com)
