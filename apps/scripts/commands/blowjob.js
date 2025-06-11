@@ -62,7 +62,7 @@ async function onCallback({ bot, callbackQuery, payload, log }) {
     const messageId = callbackQuery.message.message_id;
     await bot.deleteMessage(callbackQuery.message.chat.id, messageId);
 
-    const apiUrl = `${global.api.kaiz}/api/blowjob`;
+    const apiUrl = `https://kaiz-apis.gleeze.com/api/blowjob`;
     const response = await axios.get(apiUrl, { responseType: "arraybuffer" });
 
     const filePath = path.join(__dirname, `blowjob_${Date.now()}.gif`);
